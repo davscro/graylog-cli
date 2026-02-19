@@ -23,7 +23,17 @@
 - Config profiles in `~/.config/graylogctl/config.yaml`
 - Precedence: `flags > env > config > defaults`
 
-## Install / Build
+## Installation
+
+### Homebrew (recommended)
+
+```bash
+brew tap davscro/homebrew-tap
+brew install davscro/homebrew-tap/graylogctl
+graylogctl --help
+```
+
+### Build from source
 
 ```bash
 make build
